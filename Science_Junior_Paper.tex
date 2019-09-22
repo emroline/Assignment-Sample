@@ -1,0 +1,116 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fullpage}
+\usepackage[top=1cm, bottom=1cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{float}
+
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+ 
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{MM:30}
+\newcommand\hwnumber{1}                  % <-- homework number
+\newcommand\NetIDa{Emroline Learning Lab}           % <-- NetID of person #1
+\newcommand\NetIDb{RPS Ayodhya}           % <-- NetID of person #2 (Comment this line out for problem sets)
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\NetIDa}
+\lhead{\NetIDa\\\NetIDb}                 % <-- Comment this line out for problem sets (make sure you are person #1)
+\chead{\textbf{\Large Science}}
+\rhead{\course \\ Date:\_\_\_\_\_\_\_\_\_\_\_\_ \\ Name:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+\section*{Q.1 Circle the living things from the pictures given below:(4)}
+\begin{enumerate}
+\includegraphics[width=0.15\linewidth]{tree.png}\hspace{50}
+\includegraphics[width=0.15\linewidth]{car.jpeg}\hspace{50}
+\includegraphics[width=0.15\linewidth]{cap.jpeg}\hspace{50}
+\includegraphics[width=0.15\linewidth]{fish.png}\hspace{50}
+
+\end{enumerate}
+\section*{Q.2 Name the parts of the plants: (5)}
+\begin{enumerate}
+ \includegraphics[width=0.6\linewidth]{plant_parts.png}   
+\end{enumerate}
+\section*{Q.3 Fill in the blanks:(4) }
+\begin{enumerate} 
+\item Tall and big plants are called \_\_\_\_\_\_\_\. (trees / shrubs)
+\item Living things need \_\_\_\_\_\_\_\ to grow. (pencil / food)
+\item Plants with soft stems are called \_\_\_\_\_\_\_\. (herbs/stem)
+\item \_\_\_\_\_\_\_\ is a flower. ( Rose/ Mango)
+\end{enumerate}
+\section*{Q.4 Give two examples each: (10)}
+\begin{table}[H]
+\begin{flushleft}
+\begin{tabular}{cc}
+    \multicolumn{1}{c}{}\\
+    Non-Living things : & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \hspace{10} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\
+    Aquatic plants : & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \hspace{10} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\
+    Wild animals : & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \hspace{10} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\
+    Milk giving animals : & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \hspace{10} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\
+    Domestic animals : & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \hspace{10} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\
+\end{tabular}
+\end{flushleft}
+\label{tab:multicol}
+\end{table}
+\section*{Q.5 Identify the types of plants as tree, shrub, climber or creeper: (2)}
+\begin{enumerate}
+    \includegraphics[width=0.25\linewidth]{tree.png}\hspace{50}
+    \includegraphics[width=0.25\linewidth]{climber.jpeg}\hspace{50}
+\end{enumerate}
+\section*{Q.5 Match the following:(5)}
+\begin{enumerate}
+\begin{table}[H]
+\begin{flushleft}
+\begin{tabular}{cc}
+    \multicolumn{1}{c}{}\\
+    \includegraphics[width=0.15\linewidth]{car.jpeg} & \hspace{80} Tree \\
+    \includegraphics[width=0.15\linewidth]{fish.png} & \hspace{80} Carnivore \\
+    \includegraphics[width=0.15\linewidth]{tree.png} & \hspace{80} Non-Living \\
+    \includegraphics[width=0.15\linewidth]{climber.jpeg} & \hspace{80} Aquatic animal \\
+    \includegraphics[width=0.15\linewidth]{lion.png} & \hspace{80} Climber
+\end{tabular}
+\end{flushleft}
+\label{tab:multicol}
+\end{table}
+\end{enumerate}
+\vfill
+\begin{center}
+\includegraphics[width=0.15\linewidth]{frame.png}\\
+\caption{https://www.emroline.com}
+\end{center}
+\vspace{1cm}
+
+\end{document}
